@@ -1,0 +1,25 @@
+@media (max-width: 884px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter-boxes {
+        display: grid;
+    }
+
+    .newsletter-bottom {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .newsletter-bottom h4 {
+        text-align: start;
+    }
+
+    .newsletter-bottom-content {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+}

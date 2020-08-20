@@ -1,0 +1,167 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 0 4px 15px -10px black;
+}
+
+.top-menu {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.menu {
+    display:flex;
+    flex-direction:row;
+    list-style: none;
+}
+
+.menu li {
+    padding-right: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-btn {
+    border: none;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background: #9B5DC6;
+    box-shadow: 0 5px 20px -10px black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.first-part, .second-part {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    height: 200px;
+    justify-content: space-around;
+    background: url("/EXAM/01.Diploma-and-Certificates/images/award.svg");
+}
+
+.first-part {
+    align-items: center;
+}
+
+.first-part-text, .second-part-text, .third-part-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+
+.first-part-text h2, .second-part-text h2, .third-part-text h2 {
+    font-family: 'Montserrat';
+}
+
+.first-part-text p, .second-part-text p, .third-part-text p {
+    font-family: 'Lato';
+    font-weight: 500;
+}
+
+.slim-text {
+    font-weight: 100;
+}
+
+.second-part {
+    padding-top: 100px;
+    background: #14162B;
+    align-items: center;
+}
+
+.second-part-text {
+    color: white;
+}
+
+.second-part img {
+    margin-top: 150px;
+}
+
+
+.third-part {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.third-part-text {
+    padding-left: 40px;
+}
+
+.career-btn {
+    border: 1px solid;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    border-color: #9B5DC6;
+    color: #9B5DC6;
+    background: white;
+}
+
+.third-part img {
+    margin-left: 50px;
+}
+
+.bottom-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #14162B;
+    margin-bottom: 0;
+}
+
+.first-list, .second-and-third-list, .fourth-list, .links {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.first-list h3, .second-and-third-list h3, .fourth-list h3 {
+    color: #9B5DC6;
+    padding-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+} 
+
+.first-list li, .second-and-third-list li, .fourth-list li {
+    list-style: none;
+    text-align: start;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.first-list li a, .second-and-third-list li a, .fourth-list li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.second-and-third-list ul, .first-list ul, .fourth-list ul {
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
